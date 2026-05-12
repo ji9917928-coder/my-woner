@@ -1,0 +1,233 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+
+}
+.container{
+     /* width:74%; */
+    max-width:1140px;
+    margin: auto;
+}
+body{
+    background-color: white;
+}
+   
+
+.hero{
+background-image: url('./banner1.png');
+ /* width:100%; 
+height: 808px; */
+background-repeat:no-repeat; 
+ background-size:cover;
+ background-position:center;
+  /* text-align: right; */
+ padding:230px; 
+ /* display: flex; */
+ align-items: center; 
+ /* height: 100vh; */
+ 
+}
+.hero-content{
+    display:flex;
+    justify-content:flex-end;
+}
+.hero-text{
+    width:500px;
+    text-align:right;
+    /* padding-right:230px; */
+}
+.hero-text h2{
+  font-size:65px;
+  font-weight:700;
+  margin-bottom: 24px;
+  color:#151414;
+
+}
+.hero-text p{
+    margin-bottom:32px;
+    font-size:16px;
+    line-height:26px;
+    color:#444343;
+}
+.hero-text button{
+    padding:20px 25px;
+    color:white;
+    background:#F15B22;
+    border:none;
+    border-radius:6px;
+}
+/* about section */
+.about-section{
+    justify-content:center;
+    align-items:center;
+    display: flex;
+    gap:87px;
+    padding:130px  0;
+    width:1072px;
+    /* margin:130px auto; */
+}
+.about-box h2{
+    font-size:40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color:#151414;
+    /* height: 94px; */
+    width:288px;
+}
+.about-box p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px; 
+    width:416px;
+    color: #444343;
+
+}
+.about-box li{
+    list-style:none;
+    margin-bottom: 8px;
+    width:349px;
+    
+}
+.about-child img{
+    width:570px;
+    margin-left:-200px;
+    
+}
+.about-box{
+    /* width:416px;/ */
+    /* height:400px; */
+    margin-top:200px;
+    
+}
+/* My plane section  */
+.my-plan{
+    padding-bottom: 130px;;
+}
+.my-plan-parent{
+    display:flex;
+    justify-content:space-evenly;
+    /* gap:86px; */
+    /* padding: 0 230px; */
+    /* margin:auto; */
+    align-items: center;
+}
+/* .child-plan h2{ */
+      /* justify-content: center; */
+
+.my-plan h2{
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 40px;
+    /* font-weight: 700; */
+    margin-bottom:50px;
+    /* color: #151414; */
+
+}
+
+.my-plan h3{
+    font-size: 25px;
+    /* font-weight: 700; */
+    color: #151414;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.my-plan p{
+   
+    color:#737272;
+}
+/* .my-plan img{ */
+    /* margin-bottom: 24px; */
+
+/* bannner section */
+.banner{
+    max-width: auto;
+    background: wheat;
+    padding:58px;
+    border-radius: 8px;
+    background-image:linear-gradient(to right,rgba(223, 76, 47, 0.8),rgba(0, 0, 0, 0.2)), url('./watch.png');
+    padding-left: 64px;
+
+}
+.always h2{
+   width: 460px;
+   font-size: 40px;
+   font-weight: 700;
+   margin-bottom:25px ;
+   color: white;
+}
+.always .call-now{
+    padding: 16px 36px;
+    background: white;
+    font-size: 20px;
+    color: #F15B22;
+    border-radius: 5px;
+    border: none;
+    font-weight:600;
+}
+/* footer section  */
+.footer-content{
+    background-color:#151414;
+    /* margin-top:130px; */
+    padding:130px 0;
+    color:white;
+    margin-top:130px; ;
+    /* margin: 0 auto; */
+    /* color: white; */
+}
+.footer-section{
+    display:flex;
+    gap: 331px;
+}
+.footer-card{
+    width:485px;
+}
+.footer-card h1{
+    font-size:45px;
+    margin-bottom: 16px;
+    font-weight: 700px;
+}
+.footer-card p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.footer-card .ppp{
+    margin-bottom:16px;
+}
+.social-icons a{
+    margin-top:32px;
+    margin-right:15px;
+}
+.footer-card h2{
+    font-size: 25px;
+    font-weight:600;
+    margin-bottom: 31px;
+}
+.footer-card input{
+    padding: 21px;
+    border:1px solid #F3F3F3;
+    width:325px;
+    margin-bottom: 16ox;
+    border-radius:8px;
+    background-color: #151414;
+    color: #F3F3F3;
+    font-size: 18px;
+    
+}
+.footer-card .subscribe{
+    display: block;
+    padding: 18px;
+    border:none;
+    color: #F15B22;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 16px;
+    cursor: pointer;
+
+}
